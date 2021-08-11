@@ -13,4 +13,5 @@ variable "principal_arn" {
 variable "force_destroy_state" {
   description = "Force destroy the s3 bucket containing state files?"
   default     = true
-  type  
+  type        = bool
+}
